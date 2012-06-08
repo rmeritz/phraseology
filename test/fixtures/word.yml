@@ -1,0 +1,17 @@
+blue:
+  word: blue
+  found_in_text_as_first_word: 0
+  worked_as_first_word: 0
+  worked_poorly_as_first_word: 0
+  found_in_text_as_last_word: 0
+  worked_as_last_word: 0
+  worked_poorly_as_last_word: 0
+
+sky:
+  word: sky
+  found_in_text_as_first_word: 0
+  worked_as_first_word: 0
+  worked_poorly_as_first_word: 0
+  found_in_text_as_last_word: 0
+  worked_as_last_word: 0
+  worked_poorly_as_last_word: 0
