@@ -7,8 +7,10 @@
 # Ignore bundler config
 /.bundle
 
-# Ignore the default SQLite database.
-/db/*.sqlite3
+# Ignore the default database.
+/db/neo4j-development/*
+/db/neo4j-development/messages.log
+/db/neo4j-test/*
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
