@@ -10,7 +10,7 @@ class Word < Neo4j::Rails::Model
   property :worked_as_last_word, :default => 0, :type => :integer
   property :worked_poorly_as_last_word, :default => 0, :type => :integer
 
-  validates :word, :presence => true, :uniqueness => { :case_sensitive => false }
+  validates :word, :presence => true
   validates :found_in_text_as_first_word, :presense => true, :numericality => {:greater_than_or_equal_to => 0, :only_integer => true}
   validates :worked_as_first_word, :presense => true, :numericality => {:greater_than_or_equal_to => 0, :only_integer => true}
   validates :worked_poorly_as_first_word, :presense => true, :numericality => {:greater_than_or_equal_to => 0, :only_integer => true}
